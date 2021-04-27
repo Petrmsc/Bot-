@@ -21,7 +21,7 @@ if(btn !== undefined){
 	document.getElementsByClassName('button mini-suggest__button button_theme_search button_size_search i-bem button_js_inited')[0].click();
 }else{
 	for(let i=0; i<links.length; i++) {
-		if(links[i].href.indexOf('https://www.youtube.com/watch?v=MlviI7gyXwI')!=-1) {
+		if(links[i].href.indexOf('xn----7sbab5aqcbiddtdj1e1g.xn--p1ai')!=-1) {
 			let link = links[i];
                         link.removeAttribute('target');
 			link.click();
