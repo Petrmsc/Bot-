@@ -1,11 +1,11 @@
 let keywords = ["как звучит флейта", "саксофон", "габон"];
 
-let btnK = document.getElementsByClassName('mini-suggest__button')[0];
+let btn = document.getElementsByClassName('mini-suggest__button')[0];
 let links = document.links;
 let keyword = keywords[getRandom(0,keywords.length)];
 
 
-if(btnK !== undefined){
+if(btn != undefined){
 	document.getElementsByName('text')[0].value = keyword;
 	document.getElementsByClassName('mini-suggest__button')[0].click();
 }else{
